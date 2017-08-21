@@ -231,7 +231,7 @@ public class TraceActivity extends AppCompatActivity implements TraceAdapter.OnT
         trace16.value = "2017-06-22 09:12:54";
         traces.add(trace16);
 
-        String data = new Gson().toJson(traces);
+//        String data = new Gson().toJson(traces);
 
         adapter.setItems(traces);
     }
