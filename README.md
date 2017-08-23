@@ -1,11 +1,8 @@
 # TimeLine
 Android Timeline View is used to display views like Tracking of shipment/order, steppers etc.
 
-<br>
 <br>![](https://github.com/lin18/TimeLine/blob/master/screenshots/20170821160031.png?raw=true)
-<br>
 <br>![](https://github.com/lin18/TimeLine/blob/master/screenshots/20170821160048.png?raw=true)
-<br>
 <br>![](https://github.com/lin18/TimeLine/blob/master/screenshots/20170821160103.png?raw=true)
 
 # Use
