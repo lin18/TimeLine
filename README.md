@@ -9,7 +9,7 @@ Android Timeline View is used to display views like Tracking of shipment/order, 
 ```gradle
 compile 'com.lin:timeline:1.0@aar'
 ```
-<br>
+
 ``` Java
         final TimeLineDecoration decoration = new TimeLineDecoration(this)
                 .setLineColor(android.R.color.black)
@@ -45,11 +45,8 @@ compile 'com.lin:timeline:1.0@aar'
 <br>瀑布流可以使用
 <br>[TimeLine](https://github.com/vivian8725118/TimeLine)
 
-<br>
-<br>
 <br>ps:demo中adpter使用的库来自[PowerAdapter](https://github.com/lin18/PowerAdapter)
-<br>
-<br>
+
 # License
 ```
 Copyright 2016 lin18
