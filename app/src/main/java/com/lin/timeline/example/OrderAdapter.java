@@ -8,7 +8,7 @@ import com.lin.poweradapter.PowerViewHolder;
 
 /**
  *
- * Created by owp on 2016/12/23.
+ * Created by lin18 on 2017/8/23.
  */
 
 public class OrderAdapter extends MultiAdapter<Order, PowerViewHolder> {

@@ -20,7 +20,7 @@ import static com.lin.timeline.example.Trace.TEXT_TYPE;
 
 /**
  *
- * Created by owp on 2017/8/8.
+ * Created by lin18 on 2017/8/23.
  */
 
 public class TextDelegate extends AdapterDelegate<Trace, PowerViewHolder> {

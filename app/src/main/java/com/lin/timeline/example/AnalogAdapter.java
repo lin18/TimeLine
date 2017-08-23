@@ -13,7 +13,7 @@ import com.lin.poweradapter.SingleAdapter;
 import butterknife.BindView;
 
 /**
- * Created by owp on 2017/8/14.
+ * Created by lin18 on 2017/8/23.
  */
 
 public class AnalogAdapter extends SingleAdapter<Analog, AnalogAdapter.ChildViewHolder>  {

@@ -12,7 +12,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 /**
- * Created by lin18 on 2017/8/14.
+ * Created by lin18 on 2017/8/23.
  */
 
 public class BaseViewHolder extends PowerViewHolder {

@@ -20,6 +20,9 @@ import static com.lin.timeline.TimeLineDecoration.BEGIN;
 import static com.lin.timeline.TimeLineDecoration.END_FULL;
 import static com.lin.timeline.TimeLineDecoration.NORMAL;
 
+/**
+ * Created by lin18 on 2017/8/23.
+ */
 public class TimeLineActivity extends AppCompatActivity {
 
     @BindView(R.id.recyclerView)

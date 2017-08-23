@@ -22,6 +22,9 @@ import static com.lin.timeline.TimeLineDecoration.CUSTOM;
 import static com.lin.timeline.TimeLineDecoration.END;
 import static com.lin.timeline.TimeLineDecoration.NORMAL;
 
+/**
+ * Created by lin18 on 2017/8/23.
+ */
 public class OrderActivity extends AppCompatActivity implements OrderAdapter.OnOrderClickListener {
 
     @BindView(R.id.recyclerView)

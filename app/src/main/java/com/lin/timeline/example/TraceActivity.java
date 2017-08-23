@@ -28,6 +28,9 @@ import static com.lin.timeline.example.Trace.RATING_TYPE;
 import static com.lin.timeline.example.Trace.TEXT_TYPE;
 import static com.lin.timeline.example.Trace.TIME_TYPE;
 
+/**
+ * Created by lin18 on 2017/8/23.
+ */
 public class TraceActivity extends AppCompatActivity implements TraceAdapter.OnTraceClickListener {
 
     @BindView(R.id.recyclerView)

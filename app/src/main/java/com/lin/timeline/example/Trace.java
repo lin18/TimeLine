@@ -6,7 +6,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 /**
- * Created by owp on 2017/8/18.
+ * Created by lin18 on 2017/8/23.
  */
 
 public class Trace<T> {
