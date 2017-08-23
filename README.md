@@ -49,7 +49,7 @@ compile 'com.lin:timeline:1.0@aar'
 
 # License
 ```
-Copyright 2016 lin18
+Copyright 2017 lin18
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
