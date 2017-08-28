@@ -7,7 +7,7 @@ Android Timeline View is used to display views like Tracking of shipment/order, 
 
 # Use
 ```gradle
-compile 'com.lin:timeline:1.0@aar'
+compile 'com.lin:timeline:1.1@aar'
 ```
 
 ``` Java
