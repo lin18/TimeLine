@@ -41,6 +41,20 @@ public class TimeLineDecoration extends RecyclerView.ItemDecoration {
     public @interface TimeLineType {
     }
 
+    public static abstract class TimeLineAdapter implements TimeLineCallback {
+
+        @Override
+        public boolean isShowDivider(int position) {
+            return false;
+        }
+
+        @Nullable
+        @Override
+        public Rect getRect(int position) {
+            return null;
+        }
+    }
+
     public interface TimeLineCallback {
 
         boolean isShowDivider(int position);

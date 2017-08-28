@@ -53,11 +53,7 @@ public class TimeLineActivity extends AppCompatActivity {
                 .setBeginMarker(R.drawable.begin_marker)
                 .setMarkerRadius(4)
                 .setMarkerColor(R.color.colorAccent)
-                .setCallback(new TimeLineDecoration.TimeLineCallback() {
-                    @Override
-                    public boolean isShowDivider(int position) {
-                        return false;
-                    }
+                .setCallback(new TimeLineDecoration.TimeLineAdapter() {
 
                     @Nullable
                     @Override

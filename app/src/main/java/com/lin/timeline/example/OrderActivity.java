@@ -1,8 +1,6 @@
 package com.lin.timeline.example;
 
-import android.graphics.Rect;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -57,17 +55,7 @@ public class OrderActivity extends AppCompatActivity implements OrderAdapter.OnO
                 .setCustomMarker(R.drawable.up)
                 .setMarkerRadius(4)
                 .setMarkerColor(R.color.colorAccent)
-                .setCallback(new TimeLineDecoration.TimeLineCallback() {
-                    @Override
-                    public boolean isShowDivider(int position) {
-                        return false;
-                    }
-
-                    @Nullable
-                    @Override
-                    public Rect getRect(int position) {
-                        return null;
-                    }
+                .setCallback(new TimeLineDecoration.TimeLineAdapter() {
 
                     @Override
                     public int getTimeLineType(int position) {

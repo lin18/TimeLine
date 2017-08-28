@@ -19,18 +19,7 @@ compile 'com.lin:timeline:1.0@aar'
                 .setBeginMarker(R.drawable.begin_marker)
                 .setMarkerRadius(4)
                 .setMarkerColor(R.color.colorAccent)
-                .setCallback(new TimeLineDecoration.TimeLineCallback() {
-                    @Override
-                    public boolean isShowDivider(int position) {
-                        return false;
-                    }
-
-                    @Nullable
-                    @Override
-                    public Rect getRect(int position) {
-                        return new Rect(0, 16, 0, 16);
-                    }
-
+                .setCallback(new TimeLineDecoration.TimeLineAdapter() {//or new TimeLineDecoration.TimeLineCallback
                     @Override
                     public int getTimeLineType(int position) {
                         if (position == 0) return BEGIN;
